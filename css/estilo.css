@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(226, 236, 231);
+}
+
+p, a, h1, h2 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+p, a {
+    font-weight: 500;  
+    font-size: 1.02em;
+}
+
+h1 {
+    font-weight: 600; 
+    color: white;
+}
+
+h2 {
+    padding-left: 14px;
+    padding-top: 8px;
+    color: #191970;
+}
+
+p {
+    margin: 8px;
+	text-align: justify;
+	line-height: 1.6em;
+    padding: 5px;
+}
+
+hr { 
+    width: 20%; 
+    margin-left: 14px;
+    height: 4px;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+
+header {
+    height: 75px;
+    background-color: rgb(26, 26, 116);
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+}
+
+.logo {
+    color: yellow;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background: #CEF09D;
+    border: none;
+    margin-left: 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+button:hover {
+    background-color: #d2f8d5;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    top: 78px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+nav > ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    color: #F8F8FF;
+    background-color: rgba(16, 16, 16, .5);
+    transition-duration: .4s;
+}
+
+nav > ul > li > a:hover {
+    background-color: #9FC131;
+}
+
+.mostrar {
+    display: block;
+}
+
+.template {
+    height: 210px;
+    padding: 0px 5px;
+    background: linear-gradient(to bottom, teal, rgb(2, 126, 126));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.template img {
+    border-radius: 10px;
+}
+
+main {
+    margin: 0px 5px;
+}
+
+section {
+    min-width: 300px;
+	max-width: 1000px;
+	margin: auto;
+    margin-bottom: 20px;
+	padding: 18px;
+    padding-bottom: 34px;
+    background-color: white;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.259);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+article {
+    padding: 10px 0px;
+}
+
+picture img {
+    display: block;
+    margin: 12px auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(26, 26, 116);
+    padding: 12px;
+}
+  
+footer p {
+    color: lightyellow;
+    text-align: center;
+}

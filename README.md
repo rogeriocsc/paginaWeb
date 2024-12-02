@@ -1,2 +1,8 @@
-# paginaWeb
- Página Web simples Com HTML CSS e JavaScript
+Sobre
+___
+Página Web Simples com HTML e CSS<br>
+<br>
+* [x] Html
+* [x] Css
+* [x] JavaScript
+
