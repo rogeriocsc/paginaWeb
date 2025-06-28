@@ -1,36 +1,35 @@
 @charset "UTF-8";
-
 @media screen and (min-width: 768px) {
     section {
         width: 90vw;
     }
     
-    button {
-        display: none;
-    }
-
     nav {
-        display: flex;
         position: static;
         width: auto;
     }
 
-    nav > ul {
-        display: flex;
+    nav > ul > li {
+        display: inline-block;
     }
 
     nav > ul > li > a {
-        background: none;
+        margin: 5px;
         border-radius: 5px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .template img {
-        display: none;
+@media screen and (max-width: 767px) {
+    header > button {
+        display: block;
     }
 
-    hr { 
-        width: 35%;
+    div.template {
+        flex-flow: column nowrap;
+        padding-bottom: 5px;
+    }
+
+    div.template > h1 {
+        flex-basis: 15px;
     }
 }
