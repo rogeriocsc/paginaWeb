@@ -1,9 +1,4 @@
-@charset "UTF-8";
 @media screen and (min-width: 768px) {
-    section {
-        width: 90vw;
-    }
-    
     nav {
         position: static;
         width: auto;
@@ -26,10 +21,5 @@
 
     div.template {
         flex-flow: column nowrap;
-        padding-bottom: 5px;
-    }
-
-    div.template > h1 {
-        flex-basis: 15px;
     }
 }
