@@ -22,4 +22,8 @@
     div.template {
         flex-flow: column nowrap;
     }
+
+    section {
+        max-width: 100%;
+    }
 }

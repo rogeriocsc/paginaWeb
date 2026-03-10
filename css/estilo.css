@@ -12,20 +12,16 @@ body {
 h1, h2, p, a {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-}
-
-p, a {
-    font-weight: 400;  
-    font-size: 1em;
+    font-weight: 400;
 }
 
 header {
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    background-color: rgb(26, 26, 116);
+    background-color: #3B8C66;
 }
 
 header > h2 {
@@ -65,15 +61,15 @@ nav > ul > li > a {
     padding: 14px;
     text-decoration: none;
     text-align: center;
-    font-weight: 400;
-    color: #F8F8FF;
     background-color: #9FC131;
+    color: white;
     transition-duration: .4s;
+    border-radius: 5px;
 }
 
 nav > ul > li > a:hover {
-    background-color: white;
-    color: rgb(12, 12, 12);
+    background-color: #88a52a;
+
 }
 
 .mostrar {
@@ -81,16 +77,16 @@ nav > ul > li > a:hover {
 }
 
 div.template {
+    padding: 30px 0px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0px;
-    background: linear-gradient(to bottom, teal, rgb(2, 126, 126));
+    gap: 10px;
+    background-color: #184C78;
 }
 
 div.template > h1 {
-    padding: 5px 0px;
     color: white;
 }
 
@@ -103,52 +99,50 @@ main {
 }
 
 section {
-	max-width: 1000px;
+    max-width: 80vw;
     min-width: 300px;
-	margin: 14px auto;
+    margin: 10px auto;
     margin-bottom: 28px;
-	padding: 20px;
+    padding: 20px;
     background-color: white;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.259);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.259);
 	border-radius: 5px;
 }
 
-article {
-    padding: 10px 0px;
+section > h2 {
+    padding: 5px 0px;
+    color: #191970;
+    font-weight: 500;
 }
 
-article > hr {
-    width: 20%; 
+section > hr {
+    width: 80px; 
     height: 4px;
-    background-color: rgb(255, 0, 0);
+    background-color: #84B026;
     border: none;
     border-radius: 2px;
 }
 
-article > h2 {
-    padding: 5px 0px;
-    color: #191970;
-    font-weight: 600;
-}
-
-article > p {
-    padding: 5px 0px;
+section > p {
+    padding: 4px 0px;
 	text-align: justify;
-	line-height: 1.6em;
+    font-size: 1em;
+	line-height: 1.8em;
 }
 
 picture img {
+    max-width: 100%;
     display: block;
-    margin: 12px auto;
+    margin: 10px auto;
     border-radius: 5px;
 }
 
 footer {
-    padding: 12px;
-    background-color: rgb(26, 26, 116);
+    padding: 14px;
+    background-color: #3B8C66;
 }
   
 footer > p {
-    color: lightyellow;
+    color: white;
     text-align: center;
 }
